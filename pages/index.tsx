@@ -30,8 +30,11 @@ type Props = {
     poster_path: string
     vote_average: number
     vote_count: number
+    title: string
+    release_date: string
   }[]
 }
+
 
 const Home: NextPage<Props> = (props) => {
   return (
